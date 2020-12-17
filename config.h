@@ -8,11 +8,11 @@ static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "Hack Nerd Font:size=9" };
 static const char dmenufont[]       = "monospace:size=10";
-static const char col_gray1[]       = "#282a36";
+static const char col_gray1[]       = "#333333";
 static const char col_gray2[]       = "#44475a";
-static const char col_gray3[]       = "#bfbfbf";
-static const char col_gray4[]       = "#f8f8f2";
-static const char col_cyan[]        = "#6272A4";
+static const char col_gray3[]       = "#F2F2F2";
+static const char col_gray4[]       = "#333333";
+static const char col_cyan[]        = "#FFCE51";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
@@ -20,7 +20,7 @@ static const char *colors[][3]      = {
 };
 
 /* tagging */
-static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
+static const char *tags[] = { "", "", "", "", "", "", "辶", "", "ﮠ" };
 
 static const Rule rules[] = {
 	/* xprop(1):
